@@ -10,8 +10,6 @@ const Form = ({ onSubmit }: FormProps) => {
     description: "",
   });
 
-  const { name, description } = form;
-
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setForm({
@@ -28,6 +26,8 @@ const Form = ({ onSubmit }: FormProps) => {
       description: "",
     });
   };
+
+  const { name, description } = form;
 
   return (
     <form onSubmit={handleSubmit}>
