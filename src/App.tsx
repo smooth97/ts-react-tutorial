@@ -17,10 +17,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Greetings name=" 승진" mark=":)" onClick={onClick} />
-        <Counter />
+        <Greetings name=" 배포" mark="Test" onClick={onClick} />
+        {/* <Counter />
         <Form onSubmit={onSubmit} />
-        <ReducerSample />
+        <ReducerSample /> */}
       </header>
     </div>
   );
