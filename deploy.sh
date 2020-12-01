@@ -1,3 +1,5 @@
+git gc
+
 # node_modules 삭제 ------
 rm -rf node_modules
 
